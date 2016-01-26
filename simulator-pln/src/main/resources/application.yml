@@ -1,0 +1,12 @@
+# Koneksi Database
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/simulator
+    username: simulator
+    password: simulator
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
